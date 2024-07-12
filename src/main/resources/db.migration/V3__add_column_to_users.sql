@@ -1,0 +1,1 @@
+ALTER TABLE wallet.public.users ADD COLUMN if not exists wallet_id bigint not null default 0;
